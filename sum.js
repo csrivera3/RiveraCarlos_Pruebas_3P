@@ -4,4 +4,4 @@ function suma(a, b) {
 }
 
 //Para que se ocupe en otras clases
-module.exports = sum;
+module.exports = suma;
