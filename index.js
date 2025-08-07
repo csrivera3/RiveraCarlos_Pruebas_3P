@@ -1,12 +1,13 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
-//Simular endpoint de respuesta
+// Simular endpoint de respuesta
 app.get('/', (req, res) => {
-    res.send('Integracion continua funcionando correctamente');
-    });
-//Iniciar servidor
+  res.send('Integración continua funcionando correctamente');
+});
+
+// Iniciar servidor
 app.listen(PORT, () => {
-    console.log(`Servidor ejecutandose en el puerto ${PORT}`);
+  console.log(`Servidor ejecutándose en el puerto ${PORT}`);
 });
