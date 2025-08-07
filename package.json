@@ -1,0 +1,21 @@
+{
+  "name": "lab2_p3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "start": "npx eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "jest": "^30.0.5"
+  },
+  "type": "module"
+}
