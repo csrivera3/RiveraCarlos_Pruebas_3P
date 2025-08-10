@@ -15,5 +15,5 @@ test('Fibonacci de 0 debe ser 0', () => {
 });
 
 test('Fibonacci de 6 debe ser 8', () => {
-    expect(fibonacci(6)).toBe(10); // valor incorrecto para forzar el fallo
+    expect(fibonacci(6)).toBe(8);
 });
